@@ -1,10 +1,46 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>My Webpage</title>
+    <style>
+      #row {
+        font-size: 5px;
+        color: red;
+      }
+      
+      .header {
+        font-size:20px
+        padding:2px;
+        font-weight: bold;
+        text-align: center;
+      }
+    </style>
   </head>
+
   <body>
-    Test! Hello World!Add rubbish. Yassss!
+    <img src="/Users/shiv/Downloads/CS50/src0/cat.jpg" width="50%">
+    <h1>Presidents
+      <table>
+        <tr>
+          <th class="header">First Name</th>
+          <th class="header">Last Name</th>
+          <th class="header">Years in office</th>
+        </tr>
+        <div id="row">
+          <tr>
+            <td>George</td>
+            <td>Washington</td>
+            <td>1789-1797</td>
+          </tr>
+        </div>
+      </table>
+    </h1>
+
+    <form class="no" action="index.html" method="post">
+      <input type="text" placeholder="Enter Name" name="Name">
+      <button type="button" name="Submit">Submit!</button>
+    </form>
+
   </body>
 </html>
